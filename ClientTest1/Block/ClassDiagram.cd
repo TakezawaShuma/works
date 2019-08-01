@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DX::StepTimer" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQEQAAAAQEQAABQEAIAIAAIAABQCAAgCAwBQJAAwAA=</HashCode>
+      <FileName>StepTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DX::com_exception" Collapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IReception" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Callback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkManeger" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAABIAACAAAAIAAAAAAAAAIBAAAAAI=</HashCode>
+      <FileName>Game\NetworkManeger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYEAAAAACAAEgAAAIAAAAAAAAIAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>Game\GameObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameScene" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Task::TaskBase" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="3.562" />
+        <Point X="3.5" Y="4.125" />
+        <Point X="2.188" Y="4.125" />
+        <Point X="2.188" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAgAAAAAABAAAAIAAAAgkABAIAAAAAoQ=</HashCode>
+      <FileName>Game\Scene\GameScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneState" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAABACAAAgAAAIAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\Scene\SceneState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LobbyScene" Collapsed="true">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="SceneState" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="3.812" />
+        <Point X="8.5" Y="4.247" />
+        <Point X="7.938" Y="4.247" />
+        <Point X="7.938" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAZAAAAUACAAggAAIIAEAACAQDAAEAAMAIAAACCAAAA=</HashCode>
+      <FileName>Game\LobbyScene\LobbyScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginScene" Collapsed="true">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAYgAAAAACAAAgAAAIAAAAAAAAACCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\LoginScene\LoginScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bullet" Collapsed="true">
+    <Position X="2.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAABgAAAAAAAAAAAAAAAhAkABAIAIAwAAA=</HashCode>
+      <FileName>Game\PlayScene\Bullet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OtherPlayer" Collapsed="true">
+    <Position X="5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAQAAEIAACAAEoAAAAAAAACAAIAAgRAgADQAAAQADAA=</HashCode>
+      <FileName>Game\PlayScene\OtherPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEUAACCAECgIgoEAAACAAABAQAAAgAAgUQAQUQyQLBQ=</HashCode>
+      <FileName>Game\PlayScene\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayScene" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <InheritanceLine Type="SceneState" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="3.812" />
+        <Point X="8.5" Y="4.247" />
+        <Point X="7.271" Y="4.247" Type="JumpStart" />
+        <Point X="7.105" Y="4.247" Type="JumpEnd" />
+        <Point X="5.75" Y="4.247" />
+        <Point X="5.75" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAYAAAAABCAAhgADAIAEACFASAAACBAEIAAAAAIwACQ=</HashCode>
+      <FileName>Game\PlayScene\PlayScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputIp" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\TitleScene\InputIP.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleScene" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYUgAAAACAAAgAAAAAAAICAAAJACIAQAAAAAAQAEAA=</HashCode>
+      <FileName>Game\TitleScene\TitleScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResultScene" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAQAECAAggAAAIAAAAAAQAAACAAAAAAAAAEAAgA=</HashCode>
+      <FileName>Game\ResultScene\ResultScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BinaryFile" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAACAAIAAAAAAAAAAAAAAAAAAAQIABAA=</HashCode>
+      <FileName>Game\Effects\BinaryFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyEffect" Collapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAEAAAAAAAAAAEQIBAAAAAAgAAQ=</HashCode>
+      <FileName>Game\Effects\MyEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Debug" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAAAAAYBAAAAEAAAAAAAAAAAQAAAACAAAAAA=</HashCode>
+      <FileName>Debug.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQUAQBGAAAAgAAAgDgAAABGAJACAARIQAQ=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.111" />
+  </Class>
+  <Class Name="System::DrawManager" Collapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAAAAAKwAAAAAQAAAEACAAEgCAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\DrawManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System::InputManager" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQBAAAAAAAQAAAAABEAAIAAgAAAAAAAAAAQIBQAAAA=</HashCode>
+      <FileName>Game\InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System::EffectManager" Collapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAQSAAAAKB1AAgAAAAAAAABCAIkFgABAgQhBQAgw=</HashCode>
+      <FileName>Game\Effects\EffectManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility::Collision" Collapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAIAADAAAEAAAAQAAAAAAAgAAIAAAAAAAgAI=</HashCode>
+      <FileName>Game\Utility\Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility::SingltonCollision" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABECIAAgAAAAAAAAABAAAYAAIAQAAAAAEAAAADAIAE=</HashCode>
+      <FileName>Game\Utility\Collision.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility::Flag" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAACAAABAAAAAAAAAIAAAAIA=</HashCode>
+      <FileName>Game\Utility\Flag.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utility::SingletonBase&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>Game\Utility\SingletonBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISceneChange" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Callback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkClient" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACEAACAAgAACCAAQEAAAIAAIIAAAAEAAACAAACAAAA=</HashCode>
+      <FileName>NetworkClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task::TaskBase" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAACAAAgAAAAAAAQAUAAAAAAAqABAAAAAAAAA=</HashCode>
+      <FileName>Game\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task::TaskNode" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAAAAAAAIIAAAABAQAAAAgAAQAIAAQAAA=</HashCode>
+      <FileName>Game\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task::TaskNodeHandle" Collapsed="true">
+    <Position X="15" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAICAAAgAAEAAAAAEIAACAAAAAAEAAAAAEQAA=</HashCode>
+      <FileName>Game\TaskNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task::TaskManager" Collapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIBCAAAAAAAkACAAAAIAAAAAABAAAAAAAAMAAgAAA=</HashCode>
+      <FileName>Game\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyGame::StartScene" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="Task::TaskBase" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="3.562" />
+        <Point X="3.5" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAiAAAABAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\StartScene\StartScene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PlayerData" Collapsed="true">
+    <Position X="23.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAIBAAAAAAAAIAAABhAACAAAAEAxABAAAA=</HashCode>
+      <FileName>Data.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="System::DrawData" Collapsed="true">
+    <Position X="19.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIADIAACCAAAAAAIEIAAACgAACAACACAICgCIgAAAgw=</HashCode>
+      <FileName>Game\DrawManager.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="System::DxTexture" Collapsed="true">
+    <Position X="19.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\DrawManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Task::TaskHandle" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Game\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SCENE" Collapsed="true">
+    <Position X="23.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACCAEABAAAAAAAAEAIAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RECVSTATUS" Collapsed="true">
+    <Position X="21.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAIAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkClient.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Task::eTaskManagerFlag" Collapsed="true">
+    <Position X="19.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Game\TaskManager.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Yu Gothic UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>ae0d22d1-6cc1-4ebf-a71d-5e0210f5e574</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>e3f2b5fd-e21a-4bae-a437-038b42e87023</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{055a55bd-afe7-489a-aef0-364477fc0ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Utility">
+      <UniqueIdentifier>{eafaec28-8ee4-4753-b199-f3ecc4495d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{65500593-1fff-4696-a74b-197f2e6dfcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\LobbyScene">
+      <UniqueIdentifier>{35df677c-7a01-403e-b623-efca496d4193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\LoginScene">
+      <UniqueIdentifier>{4e1ab1e9-f1a0-4f98-941c-2ad2e4219a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\PlayScene">
+      <UniqueIdentifier>{f418fd8a-d85f-4284-9ef1-a1b462d6a63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\TitleScene">
+      <UniqueIdentifier>{0c786b75-db50-4926-a2a7-331822eabdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\ResultScene">
+      <UniqueIdentifier>{2b939a5c-1f2a-4ecd-8c0d-9f5e18e2601f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effects">
+      <UniqueIdentifier>{3dfdec31-f9ee-488f-ab59-a6d2abb6fc6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Network">
+      <UniqueIdentifier>{f48ae873-4444-4079-96d4-caccfa3285c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{5be99ccf-bf12-4e7a-b715-7bee20b05990}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utility\Flag.h">
+      <Filter>Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utility\SingletonBase.h">
+      <Filter>Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utility\Clamp.h">
+      <Filter>Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utility\Collision.h">
+      <Filter>Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Game\Effects\EffectManager.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effects\BinaryFile.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effects\MyEffect.h">
+      <Filter>Game\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\InputManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\DrawManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Utility\Maht.h">
+      <Filter>Game\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.h">
+      <Filter>Game\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkState.h">
+      <Filter>Game\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>Game\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\NetworkManeger.h">
+      <Filter>Game\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LobbyScene\LobbyScene.h">
+      <Filter>Game\Scene\LobbyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LoginScene\LoginScene.h">
+      <Filter>Game\Scene\LoginScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\PlayScene.h">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\Player.h">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\OtherPlayer.h">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayScene\Bullet.h">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ResultScene\ResultScene.h">
+      <Filter>Game\Scene\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScene\InputIP.h">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TitleScene\TitleScene.h">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneState.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UiMnager.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\UI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\StartScene\StartScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TaskBase.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TaskManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TaskNode.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TaskNodeHandle.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="Game\Effects\EffectManager.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effects\BinaryFile.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effects\MyEffect.cpp">
+      <Filter>Game\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\InputManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\DrawManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkClient.cpp">
+      <Filter>Game\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\NetworkManeger.cpp">
+      <Filter>Game\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LobbyScene\LobbyScene.cpp">
+      <Filter>Game\Scene\LobbyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LoginScene\LoginScene.cpp">
+      <Filter>Game\Scene\LoginScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\PlayScene.cpp">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\Player.cpp">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\OtherPlayer.cpp">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayScene\Bullet.cpp">
+      <Filter>Game\Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ResultScene\ResultScene.cpp">
+      <Filter>Game\Scene\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScene\InputIP.cpp">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TitleScene\TitleScene.cpp">
+      <Filter>Game\Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UIMNAGER.CPP">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\UI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\StartScene\StartScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TaskBase.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TaskManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TaskNode.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TaskNodeHandle.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Game\Effects\ParticleGS.hlsl">
+      <Filter>Game\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Effects\ParticleVS.hlsl">
+      <Filter>Game\Effects</Filter>
+    </FxCompile>
+    <FxCompile Include="Game\Effects\ParticlePS.hlsl">
+      <Filter>Game\Effects</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game\Effects\Particle.hlsli">
+      <Filter>Game\Effects</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
