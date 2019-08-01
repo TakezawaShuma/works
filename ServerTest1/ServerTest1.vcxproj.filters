@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ServerNetwork">
+      <UniqueIdentifier>{8caf86a5-43c7-4725-95a6-963a8d376acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6228a702-ea0a-4377-a6e0-b10552c9f439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{120a0e3c-e731-40b1-8bea-5316e2a87526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{a43ff397-ab5f-471c-999e-3eb0695e5671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Login">
+      <UniqueIdentifier>{8247010f-e9f5-4242-8a15-be63de4c93c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Play">
+      <UniqueIdentifier>{2ef85236-2be6-444d-98e4-862b0e6c1b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Lobby">
+      <UniqueIdentifier>{8b8e303f-d4b3-40cd-aa5d-d01216ba9960}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network\ServerNet.h">
+      <Filter>ServerNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Room.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MyMath.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\FLOAT2.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Play\PlayScene.h">
+      <Filter>Game\Scenes\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Login\LoginScene.h">
+      <Filter>Game\Scenes\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scenes\Lobby\LobbyScene.h">
+      <Filter>Game\Scenes\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Data.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ServerNet.cpp">
+      <Filter>ServerNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Room.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\Play\PlayScene.cpp">
+      <Filter>Game\Scenes\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\Login\LoginScene.cpp">
+      <Filter>Game\Scenes\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scenes\Lobby\LobbyScene.cpp">
+      <Filter>Game\Scenes\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Data.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
